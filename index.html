@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Task Management System</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Task Management System</h1>
+        <div class="user-info">
+            <input type="text" id="userName" placeholder="Enter your name" />
+            <button onclick="setUserName()">Set Name</button>
+        </div>
+        <h2 id="welcomeUser">Welcome, User!</h2>
+        
+        <div class="task-input">
+            <input type="text" id="taskInput" placeholder="Enter task name" />
+            <button onclick="addTask()">Add Task</button>
+        </div>
+        
+        <div class="view-toggle">
+            <button onclick="showPending()">Show Pending Tasks</button>
+            <button onclick="showCompleted()">Show Completed Tasks</button>
+            <button id="modeToggle">Switch to Dark Mode</button>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Task</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="taskTable"></tbody>
+        </table>
+        
+        <div class="progress">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #3CB371; /* Primary Green Color */
+}
+
+h2 {
+    color: #3CB371; /* Primary Green Color */
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #3CB371; /* Border Color */
+    border-radius: 5px;
+}
+
+button {
+    background-color: #3CB371; /* Primary Green Color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2e8b5d; /* Darker Shade of Green for Hover */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #3CB371; /* Border Color */
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #3CB371; /* Header Background Color */
+    color: white;
+}
+
+.progress {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.progress-bar {
+    height: 20px;
+    width: 0;
+    background-color: #3CB371; /* Progress Bar Color */
+    border-radius: 5px;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: #f9f9f9;
+}
+
+.dark-mode input[type="text"], 
+.dark-mode button, 
+.dark-mode th, 
+.dark-mode td {
+    background-color: #444; /* Dark Background for Inputs and Buttons in Dark Mode */
+    color: #f9f9f9; /* Light Text Color in Dark Mode */
+}
+
+.dark-mode th {
+    background-color: #555; /* Darker Header Background Color in Dark Mode */
+}
